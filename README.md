@@ -1,17 +1,22 @@
-# Clinical Extraction Benchmark
+# Clinical Ground Truth
 
-An open benchmark for evaluating clinical NLP pipelines that extract structured FHIR R4 resources from clinical text and speech. Covers the full chain: **audio → transcript → structured FHIR data**. In practical terms: how well can AI listen to a clinical encounter and correctly chart it?
+Open ground-truth data for clinical NLP evaluation, demo population, and prompt assessment. Covers the full chain: **audio → transcript → structured FHIR data**, plus longitudinal **patient bundles** to provide context for any of the above.
+
+Formerly published as `clinical-extraction-benchmark`; renamed to reflect the broader scope. The extraction benchmark is one use of this data.
 
 ## What This Is
 
-Existing medical speech datasets (MultiMed, n2c2, United-MedSyn) provide audio and transcripts, but none provide verified FHIR R4 extraction ground truth. Existing clinical NER datasets annotate entities but don't produce valid FHIR resources.
+Existing medical speech datasets (MultiMed, n2c2, United-MedSyn) provide audio and transcripts, but none provide verified FHIR R4 extraction ground truth. Existing clinical NER datasets annotate entities but don't produce valid FHIR resources. Existing synthetic patient generators (Synthea) produce longitudinal bundles but with no curation guarantees for demographic coverage or bias evaluation.
 
-This benchmark fills the gap: **human-verified expected FHIR R4 Bundles for clinical transcripts**, enabling reproducible evaluation of any extraction pipeline against a common standard.
+This repo fills those gaps:
+
+- **Human-verified expected FHIR R4 Bundles for clinical transcripts** — reproducible evaluation of any extraction pipeline against a common standard.
+- **Curated longitudinal patient bundles with clinician-readable summaries** — usable as prompt context, demo data, or bias-evaluation cohorts. Generated from Synthea, selected against a demographic matrix, with counterfactual pairs for controlled bias probes.
 
 ## Repository Structure
 
 ```
-clinical-extraction-benchmark/
+clinical-ground-truth/
 ├── transcripts/               Verified clinical text (input to extraction)
 │   ├── en/                   English
 │   ├── de/                   German
@@ -24,8 +29,12 @@ clinical-extraction-benchmark/
 │   ├── en/
 │   ├── de/
 │   └── fr/
+├── patients/                  Longitudinal synthea bundles + clinical summaries
+│   ├── <patient-id>.json     Trimmed FHIR Bundle
+│   ├── <patient-id>.md       Clinician-readable summary (paste into prompts)
+│   └── index.json             Demographic catalog + counterfactual pair manifest
 ├── schemas/                   JSON schemas for validation
-├── tools/                     Scoring and evaluation scripts
+├── tools/                     Scoring, evaluation, and curation scripts
 └── docs/                      Methodology, annotation guidelines, data sources
 ```
 
@@ -58,6 +67,23 @@ Each transcript has a corresponding verified FHIR R4 Bundle in `annotations/`. T
 ### Layer 3: Audio (Where Available)
 
 Audio recorded for original scenarios is committed to `audio/` under CC BY-SA 4.0. Audio from external datasets (MultiMed, n2c2) is not included — obtain it from the original sources under their respective licenses.
+
+### Layer 4: Patient Bundles (Curated Synthea)
+
+Flat directory of longitudinal FHIR R4 Bundles drawn from a Synthea pool, selected against a demographic matrix (sex × race × age × language × comorbidity) plus a set of counterfactual pairs constructed by clone-and-edit (sex flip, race flip, language flip, age-band shift). Each bundle is paired with a clinician-readable markdown summary that surfaces demographics, active problems, medications, allergies, recent vitals, and recent encounters — directly pasteable into a prompt as patient context.
+
+| Field | Value |
+| ----- | ----- |
+| Source | Synthea (open-source synthetic generator) |
+| License | CC BY-SA 4.0 |
+| Patient data | Synthetic — no PHI, no real patients |
+| Curation methodology | `docs/patient-curation.md` (planned) |
+| Tools | `tools/curator.mjs` (planned move from internal repo) |
+| Counterfactual axes | sex, race, language, age-band, pediatric-sex, young-adult-language |
+
+All Patient resources are tagged `cleansheet-library:demo`; counterfactual pair members carry an additional `cleansheet-library:counterfactual-pair-{N}-{variant}` tag. A `Group` resource links each pair.
+
+Why bundles here vs. a separate repo: extraction benchmark scenarios are most useful when anchored to a real-feeling longitudinal patient history. Same data shape, same licensing, same audience. Keeping ground truth co-located avoids fragmentation.
 
 ## Annotation Format
 
@@ -130,8 +156,20 @@ Audio submissions can be paired with an existing transcript (e.g., record yourse
 - **Add languages**: Extend coverage beyond EN/DE/FR
 - **Improve tooling**: Scoring scripts, validation, visualization
 - **Review annotations**: Flag errors in existing FHIR Bundles by opening an issue
+- **Extend patient cohort**: Propose new demographic cells, counterfactual pair axes, or specialty archetypes for the Layer-4 synthea library
 
 For larger contributions (tooling, batch annotations), see `docs/contributing.md` for the PR workflow.
+
+## Roadmap
+
+The Layer-4 patient bundles are an active area. The curator script and methodology docs are currently in `corporate/intranet/` (internal) and will migrate here as the canonical public location:
+
+- [ ] Migrate `medplum-load-library.mjs` → `tools/curator.mjs`
+- [ ] Migrate demographic-matrix + counterfactual methodology → `docs/patient-curation.md`
+- [ ] Migrate Synthea generator configs (state × age × sex bands) → `tools/synthea-configs/`
+- [ ] Initial seed of curated bundles under `patients/` (extracted from current Medplum or regenerated from Synthea)
+
+Until the migration completes, this repo will track the bundles only; the curator runs out of the internal repo. The dump output is portable — runs anywhere with a Synthea output directory.
 
 ### Quality requirements
 
@@ -147,13 +185,13 @@ For larger contributions (tooling, batch annotations), see `docs/contributing.md
 
 ## Citation
 
-If you use this benchmark in research, please cite:
+If you use this data in research, please cite:
 
 ```
-@misc{clinical-extraction-benchmark,
-  title={Clinical Extraction Benchmark: FHIR R4 Ground Truth for Clinical NLP Evaluation},
+@misc{clinical-ground-truth,
+  title={Clinical Ground Truth: FHIR R4 Ground Truth, Audio, and Curated Patient Bundles for Clinical NLP Evaluation},
   author={Cleansheet LLC},
   year={2026},
-  url={https://github.com/cleansheet-llc/clinical-extraction-benchmark}
+  url={https://github.com/CleansheetLLC/clinical-ground-truth}
 }
 ```

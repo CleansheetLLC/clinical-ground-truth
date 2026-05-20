@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/cleansheet-llc/clinical-extraction-benchmark/schemas/transcript-metadata.schema.json",
+  "$id": "https://github.com/CleansheetLLC/clinical-ground-truth/schemas/transcript-metadata.schema.json",
   "title": "Transcript Metadata",
   "description": "Metadata accompanying each transcript in the benchmark.",
   "type": "object",

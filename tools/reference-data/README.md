@@ -30,7 +30,7 @@ Expected: ~300,000 concept identifiers (CUIs). Pipe-delimited, ~500MB.
 ## Generating TypeScript Files
 
 ```bash
-cd clinical-extraction-benchmark/tools
+cd clinical-ground-truth/tools
 
 python generate_code_sets.py \
   --icd10 reference-data/icd10cm_order_2026.txt \

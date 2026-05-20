@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/cleansheet-llc/clinical-extraction-benchmark/schemas/fhir-bundle.schema.json",
+  "$id": "https://github.com/CleansheetLLC/clinical-ground-truth/schemas/fhir-bundle.schema.json",
   "title": "Clinical Extraction Ground Truth Bundle",
   "description": "Minimal validation schema for ground truth FHIR R4 Bundles in this benchmark. Not a full FHIR validator — validates structure and required fields for scoring.",
   "type": "object",
