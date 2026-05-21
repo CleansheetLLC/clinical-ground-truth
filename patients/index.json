@@ -1,6 +1,6 @@
 {
-  "dumpedAt": "2026-05-21T00:00:10.417Z",
-  "source": "synthea:/srv/medplum/synthea/output",
+  "dumpedAt": "2026-05-21T09:46:41.495Z",
+  "source": "synthea:/srv/medplum/synthea/output-peds-ya",
   "patientCount": 0,
   "patients": [],
   "counterfactualPairs": []
