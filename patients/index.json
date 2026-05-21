@@ -1,0 +1,7 @@
+{
+  "dumpedAt": "2026-05-21T00:00:10.417Z",
+  "source": "synthea:/srv/medplum/synthea/output",
+  "patientCount": 0,
+  "patients": [],
+  "counterfactualPairs": []
+}
