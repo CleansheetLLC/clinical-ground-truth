@@ -6,3 +6,6 @@ __pycache__/
 tools/reference-data/*.txt
 tools/reference-data/*.csv
 tools/reference-data/*.RRF
+
+# Synthea jar + generated pools (see docs/curator-runbook.md)
+.synthea/

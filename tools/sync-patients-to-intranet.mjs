@@ -29,21 +29,20 @@
  *
  * Runbook for the full flow (peds + YA expansion):
  *
- *   # 1. On Argus — generate curated dumps into CGT's patients/ dir.
- *   #    Requires Synthea output at /srv/medplum/synthea/output.
+ *   # 1. Generate curated dumps into CGT's patients/ dir.
+ *   #    See docs/curator-runbook.md for Synthea setup. Requires Synthea
+ *   #    output at <pool>/output-peds/fhir and <pool>/output-ya/fhir.
  *   cd ~/github/clinical-ground-truth
  *   git pull
- *   node ~/github/corporate/intranet/scripts/medplum-load-library.mjs load-demo \
- *     --dir /srv/medplum/synthea/output \
- *     --dump patients/
- *   node ~/github/corporate/intranet/scripts/medplum-load-library.mjs make-pairs \
- *     --dir /srv/medplum/synthea/output \
- *     --dump patients/
+ *   node tools/curator.mjs load-demo  --dir .synthea/output-peds/fhir --dump patients/
+ *   node tools/curator.mjs load-demo  --dir .synthea/output-ya/fhir   --dump patients/
+ *   node tools/curator.mjs make-pairs --dir .synthea/output-peds/fhir --dump patients/
+ *   node tools/curator.mjs make-pairs --dir .synthea/output-ya/fhir   --dump patients/
  *   git add patients/
  *   git commit -m "patients: add peds + YA matrix (7+7 demo + 6 CF pairs)"
  *   git push
  *
- *   # 2. On any host with both repos — sync into the intranet.
+ *   # 2. Sync into the intranet (in the corporate repo).
  *   cd ~/github/corporate
  *   git pull
  *   ( cd ../clinical-ground-truth && git pull )

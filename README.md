@@ -78,7 +78,7 @@ Flat directory of longitudinal FHIR R4 Bundles drawn from a Synthea pool, select
 | License | CC BY-SA 4.0 |
 | Patient data | Synthetic — no PHI, no real patients |
 | Curation methodology | `docs/patient-curation.md` (planned) |
-| Tools | `tools/curator.mjs` (planned move from internal repo) |
+| Tools | `tools/curator.mjs` |
 | Counterfactual axes | sex, race, language, age-band, pediatric-sex, young-adult-language |
 
 All Patient resources are tagged `cleansheet-library:demo`; counterfactual pair members carry an additional `cleansheet-library:counterfactual-pair-{N}-{variant}` tag. A `Group` resource links each pair.
@@ -162,14 +162,13 @@ For larger contributions (tooling, batch annotations), see `docs/contributing.md
 
 ## Roadmap
 
-The Layer-4 patient bundles are an active area. The curator script and methodology docs are currently in `corporate/intranet/` (internal) and will migrate here as the canonical public location:
+The Layer-4 patient bundles are an active area. Curator now lives here as the canonical public location:
 
-- [ ] Migrate `medplum-load-library.mjs` → `tools/curator.mjs`
-- [ ] Migrate demographic-matrix + counterfactual methodology → `docs/patient-curation.md`
+- [x] Migrate `medplum-load-library.mjs` → `tools/curator.mjs` (2026-05-23)
+- [x] Migrate runbook (Synthea pool generation + curator workflow) → `docs/curator-runbook.md` (2026-05-23)
+- [ ] Migrate demographic-matrix + counterfactual methodology writeup → `docs/patient-curation.md`
 - [ ] Migrate Synthea generator configs (state × age × sex bands) → `tools/synthea-configs/`
 - [ ] Initial seed of curated bundles under `patients/` (extracted from current Medplum or regenerated from Synthea)
-
-Until the migration completes, this repo will track the bundles only; the curator runs out of the internal repo. The dump output is portable — runs anywhere with a Synthea output directory.
 
 ### Quality requirements
 
