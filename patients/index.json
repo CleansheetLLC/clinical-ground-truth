@@ -1,7 +1,579 @@
 {
-  "dumpedAt": "2026-05-21T09:46:41.495Z",
-  "source": "synthea:/srv/medplum/synthea/output-peds-ya",
-  "patientCount": 0,
-  "patients": [],
-  "counterfactualPairs": []
+  "dumpedAt": "2026-05-23T18:46:53.273Z",
+  "source": "synthea:.synthea/output-ya/fhir",
+  "patientCount": 20,
+  "patients": [
+    {
+      "id": "81b41721-90e4-66d1-3f70-3c767ebeab3c",
+      "filename": "81b41721-90e4-66d1-3f70-3c767ebeab3c.json",
+      "summaryFilename": "81b41721-90e4-66d1-3f70-3c767ebeab3c.md",
+      "name": "Abigail677 Lizabeth515 Beahan375",
+      "gender": "female",
+      "birthDate": "2000-07-08",
+      "age": 26,
+      "race": "White",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 28,
+      "medicationCount": 11,
+      "observationCount": 218,
+      "encounterCount": 34,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 2,
+      "immunizationCount": 27,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "c3c57521-ccc8-4d8d-9540-791877410a78",
+      "filename": "c3c57521-ccc8-4d8d-9540-791877410a78.json",
+      "summaryFilename": "c3c57521-ccc8-4d8d-9540-791877410a78.md",
+      "name": "Abigail677 Lizabeth515 Beahan375",
+      "gender": "female",
+      "birthDate": "2000-07-08",
+      "age": 26,
+      "race": "White",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo",
+        "cleansheet-library:counterfactual-pair-4-young"
+      ],
+      "conditionCount": 28,
+      "medicationCount": 11,
+      "observationCount": 218,
+      "encounterCount": 34,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 2,
+      "immunizationCount": 27,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "8ec68ada-45b4-4781-b704-dfbc5121724b",
+      "filename": "8ec68ada-45b4-4781-b704-dfbc5121724b.json",
+      "summaryFilename": "8ec68ada-45b4-4781-b704-dfbc5121724b.md",
+      "name": "Abigail677 Lizabeth515 Beahan375",
+      "gender": "female",
+      "birthDate": "1957-07-08",
+      "age": 69,
+      "race": "White",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo",
+        "cleansheet-library:counterfactual-pair-4-old"
+      ],
+      "conditionCount": 28,
+      "medicationCount": 11,
+      "observationCount": 218,
+      "encounterCount": 34,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 2,
+      "immunizationCount": 27,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "b0c2839e-7cff-37ed-0802-cd8f6d737de5",
+      "filename": "b0c2839e-7cff-37ed-0802-cd8f6d737de5.json",
+      "summaryFilename": "b0c2839e-7cff-37ed-0802-cd8f6d737de5.md",
+      "name": "Addie421 Carroll471",
+      "gender": "female",
+      "birthDate": "2015-05-04",
+      "age": 11,
+      "race": "White",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 11,
+      "medicationCount": 2,
+      "observationCount": 235,
+      "encounterCount": 27,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 0,
+      "immunizationCount": 41,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "b7198a60-7ce7-47b7-8dce-0fe55bb44a05",
+      "filename": "b7198a60-7ce7-47b7-8dce-0fe55bb44a05.json",
+      "summaryFilename": "b7198a60-7ce7-47b7-8dce-0fe55bb44a05.md",
+      "name": "Adolfo777 Mayer370",
+      "gender": "male",
+      "birthDate": "2013-09-01",
+      "age": 13,
+      "race": "White",
+      "ethnicity": "Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo",
+        "cleansheet-library:counterfactual-pair-5-male"
+      ],
+      "conditionCount": 26,
+      "medicationCount": 35,
+      "observationCount": 223,
+      "encounterCount": 51,
+      "allergyCount": 8,
+      "procedureCount": 0,
+      "carePlanCount": 3,
+      "immunizationCount": 28,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "73a7c85b-fef1-4141-aa28-87ebc6059b76",
+      "filename": "73a7c85b-fef1-4141-aa28-87ebc6059b76.json",
+      "summaryFilename": "73a7c85b-fef1-4141-aa28-87ebc6059b76.md",
+      "name": "Adolfo777 Mayer370",
+      "gender": "female",
+      "birthDate": "2013-09-01",
+      "age": 13,
+      "race": "White",
+      "ethnicity": "Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo",
+        "cleansheet-library:counterfactual-pair-5-female"
+      ],
+      "conditionCount": 26,
+      "medicationCount": 35,
+      "observationCount": 223,
+      "encounterCount": 51,
+      "allergyCount": 8,
+      "procedureCount": 0,
+      "carePlanCount": 3,
+      "immunizationCount": 28,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "f18d269f-143c-05fe-d265-b2f9154804ed",
+      "filename": "f18d269f-143c-05fe-d265-b2f9154804ed.json",
+      "summaryFilename": "f18d269f-143c-05fe-d265-b2f9154804ed.md",
+      "name": "Agnes294 Cathern761 Stehr398",
+      "gender": "female",
+      "birthDate": "2012-11-07",
+      "age": 14,
+      "race": "White",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 17,
+      "medicationCount": 11,
+      "observationCount": 172,
+      "encounterCount": 31,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 3,
+      "immunizationCount": 24,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "0c26ba54-3014-be71-1a4a-99ad17517522",
+      "filename": "0c26ba54-3014-be71-1a4a-99ad17517522.json",
+      "summaryFilename": "0c26ba54-3014-be71-1a4a-99ad17517522.md",
+      "name": "Agustín529 Ramón841",
+      "gender": "male",
+      "birthDate": "2020-03-18",
+      "age": 6,
+      "race": "White",
+      "ethnicity": "Hispanic or Latino",
+      "language": "es",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 16,
+      "medicationCount": 2,
+      "observationCount": 194,
+      "encounterCount": 18,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 2,
+      "immunizationCount": 33,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "41a8fcb0-002f-8ab1-87a0-7427453de5dd",
+      "filename": "41a8fcb0-002f-8ab1-87a0-7427453de5dd.json",
+      "summaryFilename": "41a8fcb0-002f-8ab1-87a0-7427453de5dd.md",
+      "name": "Alexis664 Freeman822 Larson43",
+      "gender": "male",
+      "birthDate": "2002-11-25",
+      "age": 24,
+      "race": "Black or African American",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 38,
+      "medicationCount": 17,
+      "observationCount": 261,
+      "encounterCount": 46,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 4,
+      "immunizationCount": 32,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "4b1bee40-dbfd-d98b-6e7e-1267cc0bd06a",
+      "filename": "4b1bee40-dbfd-d98b-6e7e-1267cc0bd06a.json",
+      "summaryFilename": "4b1bee40-dbfd-d98b-6e7e-1267cc0bd06a.md",
+      "name": "Alicia629 Malissa448 Ebert178",
+      "gender": "female",
+      "birthDate": "1994-04-18",
+      "age": 32,
+      "race": "White",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 71,
+      "medicationCount": 107,
+      "observationCount": 379,
+      "encounterCount": 121,
+      "allergyCount": 9,
+      "procedureCount": 0,
+      "carePlanCount": 4,
+      "immunizationCount": 30,
+      "lastSeen": null,
+      "clinicalCategories": [
+        "asthma-copd"
+      ],
+      "clinicalFlags": [
+        "polypharmacy"
+      ]
+    },
+    {
+      "id": "36be56aa-f7b1-4a40-96a7-2be648fcd130",
+      "filename": "36be56aa-f7b1-4a40-96a7-2be648fcd130.json",
+      "summaryFilename": "36be56aa-f7b1-4a40-96a7-2be648fcd130.md",
+      "name": "Alicia629 Malissa448 Ebert178",
+      "gender": "female",
+      "birthDate": "1994-04-18",
+      "age": 32,
+      "race": "White",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo",
+        "cleansheet-library:counterfactual-pair-6-en"
+      ],
+      "conditionCount": 71,
+      "medicationCount": 107,
+      "observationCount": 379,
+      "encounterCount": 121,
+      "allergyCount": 9,
+      "procedureCount": 0,
+      "carePlanCount": 4,
+      "immunizationCount": 30,
+      "lastSeen": null,
+      "clinicalCategories": [
+        "asthma-copd"
+      ],
+      "clinicalFlags": [
+        "polypharmacy"
+      ]
+    },
+    {
+      "id": "7d9a48f2-f649-445b-9a06-1671b26eec20",
+      "filename": "7d9a48f2-f649-445b-9a06-1671b26eec20.json",
+      "summaryFilename": "7d9a48f2-f649-445b-9a06-1671b26eec20.md",
+      "name": "Alicia629 Malissa448 Ebert178",
+      "gender": "female",
+      "birthDate": "1994-04-18",
+      "age": 32,
+      "race": "White",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "es",
+      "tags": [
+        "cleansheet-library:demo",
+        "cleansheet-library:counterfactual-pair-6-es"
+      ],
+      "conditionCount": 71,
+      "medicationCount": 107,
+      "observationCount": 379,
+      "encounterCount": 121,
+      "allergyCount": 9,
+      "procedureCount": 0,
+      "carePlanCount": 4,
+      "immunizationCount": 30,
+      "lastSeen": null,
+      "clinicalCategories": [
+        "asthma-copd"
+      ],
+      "clinicalFlags": [
+        "polypharmacy"
+      ]
+    },
+    {
+      "id": "0eb259f1-f961-ff10-ee8f-f559ae4aabf2",
+      "filename": "0eb259f1-f961-ff10-ee8f-f559ae4aabf2.json",
+      "summaryFilename": "0eb259f1-f961-ff10-ee8f-f559ae4aabf2.md",
+      "name": "Apryl870 Ema785 Wuckert783",
+      "gender": "female",
+      "birthDate": "2000-03-21",
+      "age": 26,
+      "race": "Asian",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 49,
+      "medicationCount": 25,
+      "observationCount": 269,
+      "encounterCount": 59,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 4,
+      "immunizationCount": 32,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "9fad4eff-af06-35c7-7d93-8fd04e91a0ff",
+      "filename": "9fad4eff-af06-35c7-7d93-8fd04e91a0ff.json",
+      "summaryFilename": "9fad4eff-af06-35c7-7d93-8fd04e91a0ff.md",
+      "name": "Ardelle563 Linda558 Wyman904",
+      "gender": "female",
+      "birthDate": "2013-06-29",
+      "age": 13,
+      "race": "Black or African American",
+      "ethnicity": "Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 12,
+      "medicationCount": 5,
+      "observationCount": 310,
+      "encounterCount": 59,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 1,
+      "immunizationCount": 28,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "a611702d-2c5c-6715-d4cf-03efe1e3f91d",
+      "filename": "a611702d-2c5c-6715-d4cf-03efe1e3f91d.json",
+      "summaryFilename": "a611702d-2c5c-6715-d4cf-03efe1e3f91d.md",
+      "name": "Ariadna374 Vigil207",
+      "gender": "female",
+      "birthDate": "1996-10-18",
+      "age": 30,
+      "race": "White",
+      "ethnicity": "Hispanic or Latino",
+      "language": "es",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 45,
+      "medicationCount": 46,
+      "observationCount": 301,
+      "encounterCount": 195,
+      "allergyCount": 2,
+      "procedureCount": 0,
+      "carePlanCount": 6,
+      "immunizationCount": 30,
+      "lastSeen": null,
+      "clinicalCategories": [
+        "substance-use",
+        "neuro"
+      ],
+      "clinicalFlags": []
+    },
+    {
+      "id": "3203e63f-06eb-55fe-f1d7-fb0c6f24956b",
+      "filename": "3203e63f-06eb-55fe-f1d7-fb0c6f24956b.json",
+      "summaryFilename": "3203e63f-06eb-55fe-f1d7-fb0c6f24956b.md",
+      "name": "Armando772 Enrique929 Zelaya592",
+      "gender": "male",
+      "birthDate": "1988-06-14",
+      "age": 38,
+      "race": "White",
+      "ethnicity": "Hispanic or Latino",
+      "language": "es",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 52,
+      "medicationCount": 28,
+      "observationCount": 324,
+      "encounterCount": 42,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 6,
+      "immunizationCount": 20,
+      "lastSeen": null,
+      "clinicalCategories": [
+        "hypertension"
+      ],
+      "clinicalFlags": []
+    },
+    {
+      "id": "debd16cd-7df1-b29b-d5df-78351aa6fd57",
+      "filename": "debd16cd-7df1-b29b-d5df-78351aa6fd57.json",
+      "summaryFilename": "debd16cd-7df1-b29b-d5df-78351aa6fd57.md",
+      "name": "Branden904 Shields502",
+      "gender": "male",
+      "birthDate": "1997-08-17",
+      "age": 29,
+      "race": "Black or African American",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 35,
+      "medicationCount": 6,
+      "observationCount": 210,
+      "encounterCount": 63,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 4,
+      "immunizationCount": 25,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "9f42a56e-15e6-e714-cde6-fa6064a85277",
+      "filename": "9f42a56e-15e6-e714-cde6-fa6064a85277.json",
+      "summaryFilename": "9f42a56e-15e6-e714-cde6-fa6064a85277.md",
+      "name": "Drew592 Winfred745 Kutch271",
+      "gender": "male",
+      "birthDate": "2020-09-01",
+      "age": 6,
+      "race": "Black or African American",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 8,
+      "medicationCount": 0,
+      "observationCount": 160,
+      "encounterCount": 19,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 0,
+      "immunizationCount": 32,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "3ad556cc-e8ea-099d-c807-e752e97980a9",
+      "filename": "3ad556cc-e8ea-099d-c807-e752e97980a9.json",
+      "summaryFilename": "3ad556cc-e8ea-099d-c807-e752e97980a9.md",
+      "name": "Lenard338 Jamel269 Ziemann98",
+      "gender": "male",
+      "birthDate": "2012-06-20",
+      "age": 14,
+      "race": "American Indian or Alaska Native",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "en-US",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 22,
+      "medicationCount": 6,
+      "observationCount": 154,
+      "encounterCount": 24,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 2,
+      "immunizationCount": 21,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    },
+    {
+      "id": "71667c8d-a0e9-f292-6858-8b26f16c29b3",
+      "filename": "71667c8d-a0e9-f292-6858-8b26f16c29b3.json",
+      "summaryFilename": "71667c8d-a0e9-f292-6858-8b26f16c29b3.md",
+      "name": "Marlys304 Donnette259 Erdman779",
+      "gender": "female",
+      "birthDate": "2023-07-01",
+      "age": 3,
+      "race": "Asian",
+      "ethnicity": "Not Hispanic or Latino",
+      "language": "zh",
+      "tags": [
+        "cleansheet-library:demo"
+      ],
+      "conditionCount": 5,
+      "medicationCount": 0,
+      "observationCount": 113,
+      "encounterCount": 10,
+      "allergyCount": 0,
+      "procedureCount": 0,
+      "carePlanCount": 0,
+      "immunizationCount": 25,
+      "lastSeen": null,
+      "clinicalCategories": [],
+      "clinicalFlags": []
+    }
+  ],
+  "counterfactualPairs": [
+    {
+      "pairId": "5",
+      "flipAxis": "pediatric-sex",
+      "label": "Counterfactual Pair 5 — pediatric sex flip (14y M vs F, identical asthma + eczema)",
+      "memberPatientIds": [
+        "b7198a60-7ce7-47b7-8dce-0fe55bb44a05",
+        "73a7c85b-fef1-4141-aa28-87ebc6059b76"
+      ]
+    },
+    {
+      "pairId": "4",
+      "flipAxis": "age-band",
+      "label": "Counterfactual Pair 4 — age-band flip (22y vs 65y, identical Crohn's)",
+      "memberPatientIds": [
+        "c3c57521-ccc8-4d8d-9540-791877410a78",
+        "8ec68ada-45b4-4781-b704-dfbc5121724b"
+      ]
+    },
+    {
+      "pairId": "6",
+      "flipAxis": "young-adult-language",
+      "label": "Counterfactual Pair 6 — young-adult language flip (32y F prenatal, EN vs ES)",
+      "memberPatientIds": [
+        "36be56aa-f7b1-4a40-96a7-2be648fcd130",
+        "7d9a48f2-f649-445b-9a06-1671b26eec20"
+      ]
+    }
+  ]
 }
