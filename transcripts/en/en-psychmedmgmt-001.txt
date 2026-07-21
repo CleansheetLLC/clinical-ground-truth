@@ -1,0 +1,14 @@
+Psychiatrist: Hi Aja, good to see you. It has been about eight weeks since we bumped your sertraline to 100. How are things?
+Patient: Better than they were, honestly. The mornings aren't as heavy. But I still have stretches where I just feel flat and can't get going.
+Psychiatrist: That fits what your questionnaire is showing. Your PHQ-9 today is a 9. At intake you were at 16, so that's real movement, but a 9 tells me we still have a partial response rather than a full one.
+Patient: Yeah, partial is how it feels. Not stuck, but not all the way back.
+Psychiatrist: Any side effects from the sertraline? Nausea, sleep, anything sexual?
+Patient: No nausea anymore. Sleep is fine. Nothing else I've noticed.
+Psychiatrist: Good. How's your energy and interest in things day to day?
+Patient: Energy is the main thing. Motivation. I used to like getting out for a walk and I still don't really want to.
+Psychiatrist: Let me check in on safety. Any thoughts of hurting yourself or that you'd be better off not here?
+Patient: No. Nothing like that.
+Psychiatrist: Okay. On exam you're engaged, your mood is, in your words, flat, affect is a little constricted but reactive, thought process is linear, no psychosis, insight and judgment are intact. So here's what I'm thinking. You're tolerating the sertraline well and you've responded partway. Rather than push the sertraline higher, I want to keep it at 100 and add bupropion 150 of the extended release once each morning. It targets exactly the energy and motivation piece you're describing.
+Patient: So two medications.
+Psychiatrist: Yes, sertraline 100 continues, and we add bupropion XL 150 daily as an augmentation. We keep going on what's working and layer in the piece it isn't reaching. We'll recheck the PHQ-9 in four weeks and follow up in six.
+Patient: That makes sense. Let's do it.

@@ -1,0 +1,21 @@
+{
+  "id": "en-psychintake-002",
+  "language": "en",
+  "workflow": "psych_intake",
+  "source": "original",
+  "verified": false,
+  "annotation_file": "annotations/en/en-psychintake-002.json",
+  "specialty": ["psychiatry"],
+  "entity_counts": {
+    "Condition": 1,
+    "Observation": 2,
+    "MedicationRequest": 2,
+    "ServiceRequest": 1,
+    "FamilyMemberHistory": 1,
+    "Procedure": 1
+  },
+  "annotators": ["cleansheet-authoring", "pending-human-review"],
+  "difficulty": "complex",
+  "notes": "New-patient psychiatric diagnostic evaluation (CPT 90792) for post-MVA PTSD with depressive symptoms. PCL-5 and PHQ-9 administered; sertraline start plus prazosin for nightmares; baseline CMP; paternal family history. Trauma content kept non-graphic. Verified codes. Maps to BH panel patient ptsd (Anissa Bogan).",
+  "audio_files": []
+}

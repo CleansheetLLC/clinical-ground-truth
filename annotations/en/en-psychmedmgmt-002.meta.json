@@ -1,0 +1,20 @@
+{
+  "id": "en-psychmedmgmt-002",
+  "language": "en",
+  "workflow": "psych_medmgmt",
+  "source": "original",
+  "verified": false,
+  "annotation_file": "annotations/en/en-psychmedmgmt-002.json",
+  "specialty": ["psychiatry"],
+  "entity_counts": {
+    "Condition": 1,
+    "Observation": 2,
+    "MedicationStatement": 1,
+    "MedicationRequest": 1,
+    "Procedure": 1
+  },
+  "annotators": ["cleansheet-authoring", "pending-human-review"],
+  "difficulty": "moderate",
+  "notes": "Adult ADHD med-management follow-up (telehealth). Continue Schedule II lisdexamfetamine 40 (MedicationStatement); add Schedule II methylphenidate 10 with prior authorization (MedicationRequest). Home HR + BP observations; PDMP reviewed. Exercises controlled-substance and prior-auth signals. Verified codes. Maps to BH panel patient adhd-adult (Alta Waelchi); mirrors the shipped #bh ambient script enc-waelchi-adhd.",
+  "audio_files": []
+}

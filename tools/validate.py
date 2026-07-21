@@ -202,6 +202,7 @@ def validate_metadata(path: Path) -> list[str]:
         "radiology", "lab_review", "cardiology", "neurology",
         "pediatrics", "icu", "respiratory", "consult",
         "progress", "recommendations", "handoff", "dialogue",
+        "psych_intake", "psych_medmgmt", "psychotherapy", "psych_crisis",
     }
     if "workflow" in meta and meta["workflow"] not in valid_workflows:
         errors.append(f"workflow '{meta['workflow']}' not in valid set")

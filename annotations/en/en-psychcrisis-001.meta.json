@@ -1,0 +1,19 @@
+{
+  "id": "en-psychcrisis-001",
+  "language": "en",
+  "workflow": "psych_crisis",
+  "source": "original",
+  "verified": false,
+  "annotation_file": "annotations/en/en-psychcrisis-001.json",
+  "specialty": ["psychiatry", "crisis-intervention"],
+  "entity_counts": {
+    "Condition": 2,
+    "Observation": 2,
+    "MedicationStatement": 2,
+    "Procedure": 1
+  },
+  "annotators": ["cleansheet-authoring", "pending-human-review"],
+  "difficulty": "complex",
+  "notes": "Urgent suicide-risk check-in (telehealth) for treatment-resistant depression. Ground-truth property: only stated codeable findings are coded (R45.851 suicidal ideations, C-SSRS Observation, PHQ-9, continued meds, crisis-psychotherapy CPT 90839). The risk formulation, means-restriction, and safety plan are carried as attested narrative in the Composition (confidentiality N), deliberately NOT coerced into ICD codes, mirroring the app's free-standing clinical-safety layer. Maps to BH panel patient trd-tms (Bryon Erdman). Contains explicit suicidal-ideation content for safety-workflow testing.",
+  "audio_files": []
+}

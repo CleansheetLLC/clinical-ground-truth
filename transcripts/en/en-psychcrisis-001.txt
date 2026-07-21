@@ -1,0 +1,17 @@
+Clinician: Bryon, thanks for getting on this urgent visit. Your message said things have gotten darker this week. Tell me what's going on.
+Patient: The depression is back at full force. The venlafaxine and the quetiapine, none of it feels like it's touching this. I filled out the questionnaire, it was bad.
+Clinician: I see it, your PHQ-9 is 16 today. I need to ask you some direct questions and I want you to answer honestly, because that's how I can help. In the past week, have you had thoughts that you'd be better off dead or of hurting yourself?
+Patient: Yeah. Not all the time, but this week, yes. Thoughts that everyone would be fine without me.
+Clinician: Have you thought about how you might do it?
+Patient: A couple of times it crossed my mind, pills, but I didn't do anything and I don't think I actually would.
+Clinician: Do you have a specific plan, or a time you've thought about, or have you taken any steps to prepare?
+Patient: No plan, no. No steps. It's more like the thought shows up and scares me.
+Clinician: Do you have access to firearms at home?
+Patient: No, no guns.
+Clinician: What keeps you here, what pulls you back when those thoughts come?
+Patient: My sister. My dog. I don't actually want to be gone, I want this to stop.
+Clinician: That matters and I'm glad you said it. Based on the Columbia questions, you have active ideation without a specific plan or intent, some passing thoughts of method but no steps, and you have strong protective factors and no access to lethal means. That tells me we can keep you safe as an outpatient today with a clear plan, and I don't think you need the emergency department right now. Do you feel able to work a safety plan with me?
+Patient: Yes. I'd rather that than a hospital.
+Clinician: Then here's what we're going to build together. First, your warning signs, the internal cues that things are sliding. Second, coping steps you can do on your own, and people you can reach out to, your sister first. Third, the crisis line and 988 saved in your phone before we hang up. We'll also make sure there are no pills stockpiled at home, your sister can help hold them. I'm continuing your venlafaxine and quetiapine tonight, we don't stop those, and I'm going to see you again in person within 48 hours to reassess and talk about next-step options for treatment-resistant depression. If the thoughts intensify or you feel unsafe before then, you call 988 or go to the ER.
+Patient: Okay. I can do 48 hours. Thank you for not just sending me away.
+Clinician: You did the hard part by reaching out. Let's finish the safety plan now, step by step.

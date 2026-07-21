@@ -23,7 +23,8 @@
         "intake", "followup", "discharge", "procedure",
         "radiology", "lab_review", "cardiology", "neurology",
         "pediatrics", "icu", "respiratory", "consult",
-        "progress", "recommendations", "handoff", "dialogue"
+        "progress", "recommendations", "handoff", "dialogue",
+        "psych_intake", "psych_medmgmt", "psychotherapy", "psych_crisis"
       ]
     },
     "source": {

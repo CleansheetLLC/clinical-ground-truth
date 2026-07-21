@@ -1,0 +1,17 @@
+{
+  "id": "en-psychotherapy-002",
+  "language": "en",
+  "workflow": "psychotherapy",
+  "source": "original",
+  "verified": false,
+  "annotation_file": "annotations/en/en-psychotherapy-002.json",
+  "specialty": ["psychiatry", "psychotherapy"],
+  "entity_counts": {
+    "Condition": 1,
+    "Procedure": 1
+  },
+  "annotators": ["cleansheet-authoring", "pending-human-review"],
+  "difficulty": "complex",
+  "notes": "PROTECTED-NOTE SCENARIO. CBT psychotherapy session (cognitive restructuring + behavioral experiment) for established social anxiety disorder. Same separation property as en-psychotherapy-001: only the established diagnosis (Condition) and the billable service (Procedure CPT 90834) are chart-visible; process content lives in a confidentiality=R Composition with the PSY security label. Maps to BH panel patient social-anxiety (Boyd McKenzie).",
+  "audio_files": []
+}

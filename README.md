@@ -52,6 +52,8 @@ Clinical text from multiple sources:
 
 Transcripts from external datasets are **referenced, not redistributed**. Follow the links above to obtain them under their respective licenses. This repo provides the FHIR extraction annotations that layer on top.
 
+**Behavioral-health set (EN).** An original, diarized psychiatry and psychotherapy set covers four ambient encounter types, med management (`psych_medmgmt`), diagnostic intake (`psych_intake`), psychotherapy (`psychotherapy`), and crisis / risk (`psych_crisis`), each mapped to a synthetic longitudinal patient. It is the first set to encode two behavioral-health-specific ground-truth properties: the split between a chart-bound psychiatry note and a specially protected psychotherapy note (`Composition.confidentiality` `N` vs `R` with a `PSY` security label), and safety context that is carried as attested narrative rather than coerced into ICD codes. See `docs/annotation-guidelines.md` (Behavioral-health conventions).
+
 ### Layer 2: FHIR R4 Annotations (Novel Contribution)
 
 Each transcript has a corresponding verified FHIR R4 Bundle in `annotations/`. The bundle contains the expected extraction output:

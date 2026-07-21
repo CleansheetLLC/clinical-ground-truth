@@ -125,6 +125,54 @@ Examples:
   en-soap-001.wav          (audio, if available)
 ```
 
+## Behavioral-health conventions (psychiatry and psychotherapy)
+
+Behavioral-health encounters add two properties that general-medicine annotations
+do not exercise. Both are part of the ground truth, not stylistic choices.
+
+### 1. Two note classes, encoded on `Composition`
+
+Each behavioral-health bundle carries the note as a `Composition` resource (excluded
+from `entity_counts`, like Patient and Encounter). Two classes exist:
+
+| Class | `Composition.confidentiality` | Security label | Where it goes |
+| ----- | ----------------------------- | -------------- | ------------- |
+| Psychiatry / medical note (med-mgmt, intake, crisis) | `N` (normal) | none | The chart |
+| Psychotherapy / process note | `R` (restricted) | v3 ActCode `PSY` on `Composition.meta.security` | A separate, specially protected compartment (45 CFR 164.501) |
+
+A psychotherapy session's therapeutic content (process, themes, interventions) is
+recorded **only** in the protected `Composition`. It is not mined into coded
+resources. A faithful extraction of a therapy transcript yields a thin coded set,
+the established billing diagnosis (`Condition`) and the billable service
+(`Procedure`, CPT psychotherapy code), plus the protected note, and **never** a pile
+of billing codes derived from process material. Over-coding a therapy transcript is a
+scoring error, not a bonus.
+
+### 2. Safety context is not coerced into ICD codes
+
+In crisis / risk encounters, code only what is explicitly stated and codeable:
+suicidal ideation (`R45.851`), the risk-instrument result (e.g. C-SSRS as an
+`Observation`), depression severity (PHQ-9), continued medications, and the crisis
+service (`Procedure`). The **risk formulation, means-restriction, and safety plan**
+are carried as attested narrative in the `Composition`. Do not invent Conditions to
+represent a safety plan or a monitoring decision, that context resists coding and
+belongs in the note.
+
+### Service and billing codes
+
+Rendered, billable services (E/M, psychotherapy, crisis psychotherapy) are annotated
+as `Procedure` with a CPT code (`http://www.ama-assn.org/go/cpt`). Orders and
+referrals (labs, imaging) are `ServiceRequest`. Continued medications are
+`MedicationStatement`; new starts and dose changes are `MedicationRequest`.
+
+### Terminology verification
+
+RxNorm, LOINC, and ICD-10-CM codes in this set were verified against RxNav
+(`rxnav.nlm.nih.gov`) and the NLM Clinical Table Search Service
+(`clinicaltables.nlm.nih.gov`) rather than transcribed from memory. Verify, do not
+recall: RxNorm strength CUIs in particular are easy to transpose (e.g. sertraline
+100 mg is `312938`, not `312940`, which is the 25 mg tablet).
+
 ## Quality Checklist
 
 Before submitting an annotation:

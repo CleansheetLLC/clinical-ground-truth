@@ -1,0 +1,24 @@
+Psychiatrist: Antoinette, welcome. This is our first visit, so I want to hear the whole story. What brings you in?
+Patient: I've been an anxious person my whole life, but this past year it's constant. My mind never shuts off. I worry about work, money, my family, things that haven't even happened. And I cannot sleep.
+Psychiatrist: Tell me about the sleep.
+Patient: It takes me an hour or two to fall asleep because my brain won't stop. Then I wake up at three and lie there. Most nights I get maybe five hours, broken up.
+Psychiatrist: How long has the sleep been like this?
+Patient: Six, seven months. It's every night now.
+Psychiatrist: And the worry, does it come with physical symptoms? Muscle tension, restlessness, trouble concentrating?
+Patient: All of that. My shoulders are always tight, I'm restless, and I can't focus at work because I'm so keyed up.
+Psychiatrist: I had you fill out two questionnaires. Your GAD-7 is a 15, which is in the severe range for anxiety, and your PHQ-9 is an 8, so some low mood but the anxiety is clearly the bigger driver.
+Patient: That sounds right. It's mostly the anxiety and the not sleeping.
+Psychiatrist: Any history of panic attacks, trauma, or periods where the opposite happened, where you felt unusually up, needed no sleep, and were unusually energized?
+Patient: No manic stuff. No trauma I'd point to. Occasional panicky moments but not full attacks.
+Psychiatrist: Have you ever been on medication for this or seen anyone before?
+Patient: No, this is my first time.
+Psychiatrist: Any thoughts of harming yourself?
+Patient: No, never.
+Psychiatrist: How about family history, anyone with anxiety, depression, or other psychiatric conditions?
+Patient: My mother has had anxiety and depression for as long as I can remember. She takes something for it.
+Psychiatrist: That's helpful. Any medical conditions, or do you drink caffeine or alcohol?
+Patient: I'm healthy otherwise. Two or three coffees a day, a glass of wine maybe on weekends.
+Psychiatrist: Okay. My assessment is generalized anxiety disorder, and a co-occurring insomnia that the anxiety is feeding. Here's my plan. I'd like to start escitalopram at 10 milligrams each morning. It's a first-line medicine for exactly this and it treats both the worry and the low mood. For the sleep, while the escitalopram takes a few weeks to work, I'll give you trazodone 50 milligrams at bedtime, which is non-habit-forming.
+Patient: Will the escitalopram make me groggy?
+Psychiatrist: Usually not. We start low and I'll see you back in four weeks to see how you're tolerating it. I'm also going to order a comprehensive metabolic panel as a baseline before we go further. And we'll work on cutting the afternoon caffeine, which is not helping the sleep.
+Patient: Okay. That all makes sense.

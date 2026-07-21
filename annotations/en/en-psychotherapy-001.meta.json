@@ -1,0 +1,17 @@
+{
+  "id": "en-psychotherapy-001",
+  "language": "en",
+  "workflow": "psychotherapy",
+  "source": "original",
+  "verified": false,
+  "annotation_file": "annotations/en/en-psychotherapy-001.json",
+  "specialty": ["psychiatry", "psychotherapy"],
+  "entity_counts": {
+    "Condition": 1,
+    "Procedure": 1
+  },
+  "annotators": ["cleansheet-authoring", "pending-human-review"],
+  "difficulty": "complex",
+  "notes": "PROTECTED-NOTE SCENARIO. ERP psychotherapy session for established OCD. Ground-truth property: therapeutic/process content must NOT be extracted into coded resources. Only the established billing diagnosis (Condition) and the billable therapy service (Procedure CPT 90834) are chart-visible; the process content is carried in a Composition with confidentiality=R and v3 ActCode PSY security label (psychotherapy note, 45 CFR 164.501). A faithful extraction yields a thin coded set plus a protected note, never a pile of billing codes mined from process. Maps to BH panel patient ocd (Branden Shields).",
+  "audio_files": []
+}

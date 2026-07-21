@@ -1,0 +1,19 @@
+{
+  "id": "en-psychcrisis-002",
+  "language": "en",
+  "workflow": "psych_crisis",
+  "source": "original",
+  "verified": false,
+  "annotation_file": "annotations/en/en-psychcrisis-002.json",
+  "specialty": ["psychiatry", "crisis-intervention", "perinatal"],
+  "entity_counts": {
+    "Condition": 1,
+    "Observation": 3,
+    "MedicationStatement": 1,
+    "Procedure": 1
+  },
+  "annotators": ["cleansheet-authoring", "pending-human-review"],
+  "difficulty": "complex",
+  "notes": "Urgent perinatal check-in for postpartum depression with ego-dystonic intrusive thoughts; clinical reasoning explicitly rules out postpartum psychosis. EPDS, PHQ-9, and C-SSRS Observations; continued lactation-compatible sertraline; crisis-psychotherapy CPT 90839. Safety plan and PPD-vs-psychosis differentiation carried as attested narrative in the Composition, not coerced into codes. Maps to BH panel patient ppd (Abigail Beahan). Contains perinatal self-harm-thought content for safety-workflow testing.",
+  "audio_files": []
+}

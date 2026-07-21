@@ -1,0 +1,20 @@
+Psychiatrist: Anissa, thank you for coming in. This is an intake, so take your time. What led you to seek care now?
+Patient: About a year ago I was in a bad car accident. Since then I haven't been the same. I have nightmares about it, I get flashbacks when I hear tires screech, and I can't drive on the highway anymore.
+Psychiatrist: I'm sorry that happened. When the flashbacks come, what do they feel like?
+Patient: Like I'm back in it. My heart pounds, I sweat, I freeze up. Loud noises make me jump out of my skin.
+Psychiatrist: Are you avoiding things that remind you of it?
+Patient: Constantly. I take the long way to avoid the intersection. I won't talk about it. I've pulled back from friends.
+Psychiatrist: And sleep?
+Patient: The nightmares wake me up two or three times a night. I'm exhausted and on edge all day.
+Psychiatrist: I had you complete a couple of measures. The PCL-5, which is the standard PTSD checklist, came back at 52, which is high and well above the threshold. Your PHQ-9 is 12, so there's a moderate depressive component riding along with it, which is common.
+Patient: I figured it was bad.
+Psychiatrist: Let me ask directly about safety. Any thoughts of ending your life or hurting yourself?
+Patient: No. I want to feel like myself again, that's why I'm here.
+Psychiatrist: That's exactly the right reason. Any prior mental health treatment, and any family history?
+Patient: Never treated before. My father had what they'd probably now call PTSD from his service, and he drank heavily.
+Psychiatrist: Thank you. Any medical problems or current medications?
+Patient: None. I don't take anything.
+Psychiatrist: My assessment is post-traumatic stress disorder from the accident, with co-occurring depressive symptoms. Here's my plan. I want to start sertraline, which is FDA-approved for PTSD. We'll begin at 50 milligrams daily and titrate up over the coming weeks. For the nightmares specifically, I'm going to add prazosin 1 milligram at bedtime, which targets trauma nightmares directly.
+Patient: Will the prazosin knock me out?
+Psychiatrist: It can lower blood pressure so we start low and go slow, and I'll check in on it. I'll also order a comprehensive metabolic panel as a baseline. And I strongly recommend we pair the medication with trauma-focused therapy, which is where the durable gains come from. We'll follow up in four weeks.
+Patient: Okay. I'm willing to try.

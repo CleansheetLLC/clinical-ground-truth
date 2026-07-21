@@ -1,0 +1,20 @@
+{
+  "id": "en-psychmedmgmt-001",
+  "language": "en",
+  "workflow": "psych_medmgmt",
+  "source": "original",
+  "verified": false,
+  "annotation_file": "annotations/en/en-psychmedmgmt-001.json",
+  "specialty": ["psychiatry"],
+  "entity_counts": {
+    "Condition": 1,
+    "Observation": 1,
+    "MedicationStatement": 1,
+    "MedicationRequest": 1,
+    "Procedure": 1
+  },
+  "annotators": ["cleansheet-authoring", "pending-human-review"],
+  "difficulty": "moderate",
+  "notes": "Psychiatric medication-management follow-up (telehealth). MDD recurrent, partial response on sertraline 100; augment with bupropion XL 150. Ambient dialogue. Chart-bound Psychiatry Note (confidentiality N). Distinguishes continued med (MedicationStatement) from new augmentation (MedicationRequest). RxNorm/LOINC/ICD-10-CM verified against RxNav and NLM. Maps to BH panel patient mdd-recurrent-partial (Aja Hessel).",
+  "audio_files": []
+}
